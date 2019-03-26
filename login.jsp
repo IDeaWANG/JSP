@@ -12,8 +12,8 @@
 </head>
 <body>
 <form action="doLogin2.jsp" method="POST" target="_blank">
-    <input type="text" name="Username" /> 用户名：
-    <input type="text" name="Passwd" />密码：
+    <input type="text" name="username" /> 用户名：
+    <input type="text" name="passwd" />密码：
     <input type="submit" value="提交" />
     <input type="reset" value="重置" />
 </form>
