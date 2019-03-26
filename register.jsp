@@ -24,44 +24,46 @@
 <body>
 <P class=" p1">创建您的电子邮件账号</P><br>
 <p class=" p2">需要填写如下信息</p>
+<form name="input" action="doRegister.jsp" method="POST">
 <table border="1">
     <tr>
         <td>账号名</td>
-        <td><form>
+        <td>
             <input type="text" align="center" name="name"> 126.com
-        </form>
+        
         </td>
     </tr>
 
     <tr>
         <td >密码</td>
-        <td><form >
+        <td>
             <input type="text" align="center" name="passwd"/>
-        </form>
+        
         </td>
     </tr>
     <tr>
         <td>选择性别</td>
-        <td><form>
+        <td>
             <input type="radio" name="sex" value="male"/>男<br>
             <input type="radio" name="sex" value="female"/>女
-        </form></td>
+        </td>
     </tr>
     <tr>
         <td>爱好兴趣</td>
-        <td><form>
+        <td>
             <input type="checkbox" name="habbit" value="网络"/>网络<br>
             <input type="checkbox" name="habbit" value="运动"/>运动<br>
             <input type="checkbox" name="habbit" value="游泳"/>游泳
-        </form></td>
+        </td>
     </tr>
     <tr>
         <td><input type="reset" value="重填"/></td>
-        <td><form name="input" action="doRegister.jsp" method="POST">
+        <td>
             <input type="submit" value="提交" align="center"/>
-        </form>
+       
         </td>
     </tr>
 </table>
+<／form>
 </body>
 </html>
