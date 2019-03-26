@@ -24,8 +24,7 @@
 <p>姓名：<%=name%></p>
 <p>密码：<%=passwd%></p>
 <p>性别：<%=sex%></p>
-<p>爱好：<%for(int i =0;i<habbies.length();i++);
-out.print(habbies);%></p>
+<p>爱好：<%for(int i =0;i<habbies.length();i++)｛out.print(habbies);｝%></p>
 
 </body>
 </html>
